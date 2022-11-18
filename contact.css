@@ -1,0 +1,228 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+  padding: 0 10px;
+  min-height: 100vh;
+  background-color: rgb(214, 212, 212);
+  flex-direction: column;
+  align-items: center;
+}
+.overbg {
+  background-color: white;
+  width: 64vw;
+  height: 39vw;
+  border-radius: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5vw 0vw 1.5vw 0vw;
+  flex-direction: column;
+}
+::selection{
+  color: #fff;
+  background: #ef7116;
+}
+.wrapper{
+    width: 45vw;
+    background: #fff;
+    margin-top: 1vw;
+    border-radius: 0.5vh;
+}
+.wrapper .h1{
+  font-size: 1.3vw;
+  font-weight: 600;
+  width: 41vw;
+  padding: 1.3vw 1.9vw;
+  margin-left: 2vw;
+  border-bottom: 1px solid #ccc;
+}
+.wrapper form{
+    margin: 1.5vw 2vw;
+}
+.wrapper form.disabled{
+  pointer-events: none;
+  opacity: 0.7;
+}
+form .dbl-field{
+  display: flex;
+  margin-bottom: 1.5vw;
+  justify-content: space-between;
+}
+.dbl-field .field{
+  height: 3vw;
+  display: flex;
+  position: relative;
+  width: calc(100% / 2 - 13px);
+}
+.wrapper form i{
+  position: absolute;
+  top: 50%;
+  left: 1.2vw;
+  color: #ccc;
+  font-size: 1vw;
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+form .field input,
+form .message textarea{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding: 0 1vw 0 3vw;
+    font-size: 1vw;
+    border-radius: 0.5vw;
+    border: 1px solid #ccc;
+}
+.field input::placeholder,
+.message textarea::placeholder{
+  color: #ccc;
+}
+.field input:focus,
+.message textarea:focus{
+  padding-left: 3vw;
+  border: 2px solid #ef7116;
+}
+.field input:focus ~ i,
+.message textarea:focus ~ i{
+  color: #ef7116;
+}
+form .message{
+  position: relative;
+}
+form .message i{
+  top: 1.8vw;
+  font-size: 1.2vw;
+}
+form .message textarea{
+    min-height: 11vw;
+    max-height: 17vw;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 1vw 1vw 0 3.2vw;
+}
+form .message textarea::-webkit-scrollbar{
+  width: 0px;
+}
+.message textarea:focus{
+  padding-top: 0.9vw;
+}
+form .button-area{
+    margin: 1.3vw 0;
+    display: flex;
+    align-items: center;
+}
+.button-area button{
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 1.2vw;
+    cursor: pointer;
+    border-radius: 0.5vh;
+    padding: 0.9vw 2vw;
+    background: #ef7116;
+    transition: background 0.3s ease;
+}
+.button-area button:hover{
+  background: #ef7116;
+}
+.button-area span{
+  font-size: 1vw;
+  margin-left: 1.7vw;
+  display: none;
+}
+body::-webkit-scrollbar {
+	background-color: transparent;
+	width: 0vw;
+}
+body::-webkit-scrollbar-track {
+	background-color: #6caca9;
+}
+body::-webkit-scrollbar-thumb {
+	background-color: #6caca9;
+	border-radius: 10px;
+    width: 100%;
+}
+.logo {
+    margin-top: 0.4vw;
+}
+.header {
+    background-color: #ef7116;
+    display: flex;
+    border-top: 0.5vw solid black;
+    border-bottom: 0.5vw solid black;
+    align-items: center;
+    justify-content: center;
+    width: 101.23%;
+    height: 7vw;
+}
+.logo {
+    width: 12vw;
+    height: 7vw;
+    margin-right: 20vw;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.nav > ul {
+    list-style: none;
+}
+.nav > ul > li {
+    display: inline-block;
+    margin-left: 2vw;
+    position: relative;
+}
+.navting {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1vw;
+    font-weight: bold;
+}
+.fs {
+    height: 14vw;
+    }
+    .secondarys {
+        height: 8vw;
+    }
+    .sponsors h1 {
+        margin: 0vw 3vw 2vw 3vw;
+        display: inline-block;
+        font-size: 2.5vw;
+    }
+    #heder {
+        margin-top: 0vw;
+    }
+    .sponsors {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40vw;
+        color: aliceblue;
+        background-color: 
+        #3e4450;
+        width: 101.23%;
+        
+        flex-direction: column;
+    }
+    .official {
+        background-color: #333742;
+        height: 3vw;
+        width: 101.23%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color : aliceblue   ;
+    }
+.dm {
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 1vwvw;
+}

@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+   font-family: 'Cuprum', sans-serif;
+}
+body {
+    background-color: rgb(214, 212, 212);
+}
+body::-webkit-scrollbar {
+	background-color: transparent;
+	width: 0vw;
+}
+body::-webkit-scrollbar-track {
+	background-color: #6caca9;
+}
+body::-webkit-scrollbar-thumb {
+	background-color: #6caca9;
+	border-radius: 10px;
+    width: 100%;
+}
+.main {
+    border-top: 0.25vw solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo {
+    margin-top: 0.4vw;
+}
+.header {
+    background-color: #ef7116;
+    display: flex;
+    border-bottom: 0.25vw solid black;
+    border-top: 0.5vw solid black;
+    align-items: center;
+    justify-content: center;
+    height: 6vw;
+}
+.logo {
+    width: 12vw;
+    height: 7vw;
+    margin-right: 20vw;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.nav > ul {
+    list-style: none;
+}
+.nav > ul > li {
+    display: inline-block;
+    margin-left: 2vw;
+    position: relative;
+}
+.navting {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1vw;
+    font-weight: bold;
+}
+.fs {
+height: 14vw;
+}
+.secondarys {
+    height: 8vw;
+}
+.sponsors h1 {
+    margin: 0vw 3vw 2vw 3vw;
+    display: inline-block;
+    font-size: 2.5vw;
+}
+.sponsors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vw;
+    color: aliceblue;
+    background-color: 
+    #3e4450;
+   
+    flex-direction: column;
+}
+.official {
+    background-color: #333742;
+    height: 3vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color : aliceblue   ;
+}
+.overbg {
+    background-color: white;
+    width: 64vw;
+    height: 95.5vw;
+    border-radius: 3vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1.5vw 0vw 1.5vw 0vw;
+}
+.big-new1 img{
+    width: 57vw;
+    height: 31vw;
+    border-radius: 3vh;
+    background-color: black;
+    margin-top: 2vw;
+}
+.big-new1 a h3 {
+    font-size: 2vw;
+    margin-top: 1vw;
+    color: black;
+    text-decoration: none;
+}
+.big-new1 a {
+    font-size: 2vw;
+    margin-top: 1vw;
+    color: black;
+    text-decoration: none;
+}
+.big-new1 span {
+    font-size: 1.3vw;
+    
+}
+.big-new1 a:hover {
+    text-decoration: underline;
+}
+.big-new1 a p {
+    margin-top: 1vw;
+    font-size: 1.1vw;
+    color: black;
+    text-decoration: none;
+}
+.big-new1 span {
+    color: #8e9196;
+    font-size: 0.8vw;
+}
+.smallgroupofsmallnews>h3 {
+    width: 57vw;
+    margin-top: 2vw;
+    font-size: 2vw;
+}
+.smallgroupofsmallnews>div {
+    width: 57vw;
+    height: 40vw;
+    display: grid;
+    grid-template-rows: repeat(3, 33.33%);
+    row-gap: 1.5vw;
+    margin-top: 1vw;
+}
+.smallgroupofsmallnews>div>div {
+    border: 0.5vw solid black;
+    border-radius: 3vh;
+    display: grid;
+    grid-template-columns: 38% 62%;
+}
+.smallgroupofsmallnews img {
+    width: 98%;
+    position: relative;
+    top: -0.1vw;
+    border-right: 0.5vw solid black;
+    border-radius: 2vh 0vw 0vw 2vh;
+    left: -0.1vw;
+    
+    height: 101%;
+}
+.as {
+    background: #000;
+    border-radius: 3vh 0vw 0vw 3vh;
+}
+.sa {
+    display: flex;
+    justify-content: center;
+    padding-left: 3vw;
+    flex-direction: column;
+}
+.big-new1 .fis img {
+    width: 99%;
+    height: 100%;
+    position: relative;
+    left: -0.2vw;
+    top: -0.3vw;
+    border: 0.5vw solid black;
+    background: #000;
+}
+.big-new1 .fis {
+    width: 57vw;
+}
+.useless {
+    background: #000;
+    width: 55.6vw;
+    border-radius: 3vh;
+    height: 0.4vw;
+    position: relative;
+    left: 0.8vw;
+    top: -1.1vw;
+}
+.fis2 {
+    font-size: 1.65vw;
+    margin-top: -0.5vw;
+    display: inline-block;
+    width: 29vw;
+}
+.sa a {
+    color: #000;
+    text-decoration: none;
+}
+.sa a:hover {
+    text-decoration: underline;
+}
+.fis3 {
+    font-size: 1.2vw;
+    margin-top: 1.3vw;
+    display: inline-block;
+}
+h3 {
+    display: inline-block;
+}
+a {
+    text-decoration: underline;
+}

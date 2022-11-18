@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+   font-family: 'Cuprum', sans-serif;
+}
+body {
+    background-color: rgb(214, 212, 212);
+}
+body::-webkit-scrollbar {
+	background-color: transparent;
+	width: 0vw;
+}
+body::-webkit-scrollbar-track {
+	background-color: #6caca9;
+}
+body::-webkit-scrollbar-thumb {
+	background-color: #6caca9;
+	border-radius: 10px;
+    width: 100%;
+}
+.main {
+    border-top: 0.25vw solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo {
+    margin-top: 0.4vw;
+}
+.header {
+    background-color: #ef7116;
+    display: flex;
+    border-bottom: 0.25vw solid black;
+    border-top: 0.5vw solid black;
+    align-items: center;
+    justify-content: center;
+    height: 6vw;
+}
+.logo {
+    width: 12vw;
+    height: 7vw;
+    margin-right: 20vw;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.nav > ul {
+    list-style: none;
+}
+.nav > ul > li {
+    display: inline-block;
+    margin-left: 2vw;
+    position: relative;
+}
+.navting {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1vw;
+    font-weight: bold;
+}
+.fs {
+height: 14vw;
+}
+.secondarys {
+    height: 8vw;
+}
+.sponsors h1 {
+    margin: 0vw 3vw 2vw 3vw;
+    display: inline-block;
+    font-size: 2.5vw;
+}
+.sponsors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vw;
+    color: aliceblue;
+    background-color: 
+    #3e4450;
+   
+    flex-direction: column;
+}
+.official {
+    background-color: #333742;
+    height: 3vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color : aliceblue   ;
+}
+.overbg {
+    background-color: white;
+    width: 64vw;
+    height: 221.8vw;
+    border-radius: 3vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1.5vw 0vw 1.5vw 0vw;
+}
+.main {
+    border-top: 0.25vw solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fis1 {
+    border-radius: 3vh;
+    margin-top: 2vw;
+    height: 32vw;
+    width: 57vw;
+    background: #000;
+}
+.fis1 img {
+    width: 99%;
+    height: 100%;
+    position: relative;
+    left: -0.2vw;
+    top: -0.3vw;
+    border-radius: 3vh;
+    border: 0.5vw solid black;
+    background: #000;
+}
+.main1 h3 {
+    margin-top: 1.2vw;
+    font-size: 2vw;
+}
+.main1 h5 {
+    margin-top: 1vw;
+    font-size: 1.12vw;
+    display: inline-block;
+    font-weight: 500;
+    margin-bottom: 1vw;
+}
+.main1 {
+    width: 57vw;
+    border-bottom: 1px solid #8e9196;
+}
+.main1 p {
+    font-size: 1.1vw;
+}
+.main1 span {
+    color: #8e9196;
+    font-size: 0.8vw;
+    margin-top: 0.65vw;
+}
+.useless {
+    background: #000;
+    width: 57vw;
+    border-radius: 3vh;
+    height: 0.4vw;
+    position: relative;
+    left: 0.05vw;
+    top: -0.1vw;
+}
+.fax {
+    width: 57vw;
+    height: 37.75vw;
+    border-bottom: 1px solid #8e9196;
+}
+.fax h3 {
+    font-size: 0.9vw;
+    margin-top: 1vw;
+}
+span, h1, h2, h3, h4, h5, h6,p {
+    display: inline-block;
+}
+li {
+    margin-top: 0.5vw;
+    padding-left: 0.7vw;
+}
+.fax ul {
+    padding-left: 0.9vw;
+    margin-left: 1.1vw;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1.05vw;
+}
+.fax2 {
+    width: 57vw;
+    height: 20.3vw;
+    margin-top: 0.7vw;
+    border-bottom: 1px solid #8e9196;
+}
+.fax2 h3 {
+    font-size: 1.15vw;
+    margin-bottom: 0.7vw;
+}
+.fax2 h4 {
+    font-size: 1.1vw;
+    margin-bottom: 0.3vw;
+}
+.fax2 p {
+    line-height: 1.6vw;
+    font-size: 1.1vw;
+}
+.fax2 a {
+    color: #0268d6;
+    text-decoration: none;
+}
+.fax2 a:hover {
+    text-decoration: underline;
+}
+.fax3 {
+    width: 57vw;
+    height: 29.2vw;
+    margin-top: 0.7vw;
+    border-bottom: 1px solid #8e9196;
+}
+.fax3 h3 {
+    font-size: 1.15vw;
+    margin-bottom: 0.7vw;
+}
+.fax3 h4 {
+    font-size: 1.1vw;
+    margin-bottom: 0.3vw;
+}
+.fax3 p {
+    line-height: 1.6vw;
+    font-size: 1.1vw;
+}
+.fax3 a {
+    color: #0268d6;
+    text-decoration: none;
+}
+.fax3 a:hover {
+    text-decoration: underline;
+}
+.fax4 {
+    width: 57vw;
+    height: 29.2vw;
+    margin-top: 0.7vw;
+    border-bottom: 1px solid #8e9196;
+}
+.fax4 h3 {
+    font-size: 1.15vw;
+    margin-bottom: 0.7vw;
+}
+.fax4 h4 {
+    font-size: 1.1vw;
+    margin-bottom: 0.3vw;
+}
+.fax4 p {
+    line-height: 1.6vw;
+    font-size: 1.1vw;
+}
+.fax4 a {
+    color: #0268d6;
+    text-decoration: none;
+}
+.fax4 a:hover {
+    text-decoration: underline;
+}
+.fax5 {
+    width: 57vw;
+    height: 27.7vw;
+    margin-top: 0.7vw;
+    border-bottom: 1px solid #8e9196;
+}
+.fax5 h3 {
+    font-size: 1.15vw;
+    margin-bottom: 0.7vw;
+}
+.fax5 h4 {
+    font-size: 1.1vw;
+    margin-bottom: 0.3vw;
+}
+.fax5 p {
+    line-height: 1.6vw;
+    font-size: 1.1vw;
+}
+.fax5 a {
+    color: #0268d6;
+    text-decoration: none;
+}
+.fax5 a:hover {
+    text-decoration: underline;
+}
+.fax6 {
+    width: 57vw;
+    height: 27.4vw;
+    border-bottom: 1px solid #8e9196;
+}
+.fax6 h3 {
+    font-size: 0.9vw;
+    margin-top: 1vw;
+}
+.fax6 ul {
+    margin-left: 1.1vw;
+    font-size: 1.05vw;
+    padding-left: 0.9vw;
+    font-weight: bold;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.fax6 a {
+    color: #0268d6;
+    text-decoration: none;
+}
+.fax6 a:hover {
+    text-decoration: underline;
+}

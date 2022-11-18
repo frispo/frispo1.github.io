@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+   font-family: 'Cuprum', sans-serif;
+}
+body::-webkit-scrollbar {
+	background-color: transparent;
+	width: 0vw;
+}
+body::-webkit-scrollbar-track {
+	background-color: #6caca9;
+}
+body::-webkit-scrollbar-thumb {
+	background-color: #6caca9;
+	border-radius: 10px;
+    width: 100%;
+}
+#heder {
+    border-bottom: 0.25vw solid black;
+    
+}
+.logo {
+    margin-top: 0.4vw;
+}
+.header {
+    background-color: #ef7116;
+    display: flex;
+    border-top: 0.5vw solid black;
+    border-bottom: 0.25vw solid black;
+    align-items: center;
+    justify-content: center;
+    height: 6vw;
+}
+.logo {
+    width: 12vw;
+    height: 7vw;
+    margin-right: 20vw;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.nav > ul {
+    list-style: none;
+}
+.nav > ul > li {
+    display: inline-block;
+    margin-left: 2vw;
+    position: relative;
+}
+.navting {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1vw;
+    font-weight: bold;
+}
+.fs {
+height: 14vw;
+}
+.secondarys {
+    height: 8vw;
+}
+.sponsors h1 {
+    margin: 0vw 3vw 2vw 3vw;
+    display: inline-block;
+    font-size: 2.5vw;
+}
+.sponsors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vw;
+    color: aliceblue;
+    background-color: 
+    #3e4450;
+    border-top: 0.25vw solid black;
+    flex-direction: column;
+}
+.official {
+    background-color: #333742;
+    height: 3vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color : aliceblue   ;
+}
+.games-box {
+    height: 68vw;
+    width: 57vw;
+    margin-top: 1.2vw;
+    display: grid;
+    grid-template-columns: repeat(3, 17vw);
+    grid-template-rows: repeat(5, 11vw);
+    gap: 3vw;
+
+}
+.h3 span {
+    font-size: 1.3vw;
+}
+.games-box div img{
+height: 3.5vw;
+}
+.cell {
+    border-radius: 1vh;
+}
+.games-box>div {
+    border: 0.5vw solid black;
+    display: grid;
+    grid-template-rows: 57% 40%;
+}
+.innercell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.innercell2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.innercell2 a {
+    font-size: 0.85vw;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+.innercell2 a:hover {
+    color: rgb(221, 64, 64);
+    transition: all 0.2s;
+}
+.move {
+    margin-left: 2vw;
+}
+.move2 {
+    margin-left: 7vw;
+}
+.move3 {
+    margin-left: 5vw;
+}
+.move4 {
+    margin-left: 7vw;
+}
+.move5 {
+    margin-left: 6vw;
+}
+.move6 {
+    margin-left: 4vw;
+}
+.move7 {
+    margin-left: 6vw;
+}
+.move8 {
+    margin-left: 4vw;
+}
+.move9 {
+    margin-left: 7vw;
+}
+.move99 {
+    margin-left: 1vw;
+}
+.move10 {
+    margin-left: 1vw;
+}
+.move1010 {
+    margin-left: 1vw;
+}
+.move11 {
+    margin-left: 4vw;
+}
+.h3 {
+    font-size: 2vw;
+    margin-top: 1.2vw;
+}
+.h31 {
+    font-size: 2vw;
+    text-align: center;
+}
+iframe {
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+    border: 0.5vw solid black;
+    background-color: black;
+    width: 57vw;
+    height: 32vw;
+    border-radius: 3vh;
+}
+.main {
+    border-top: 0.25vw solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.h32 {
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 2vw;
+}
+.vid {
+    margin-top: 30vw;
+}
+.boxes {
+    height: 41vw;
+    width: 57vw;
+    margin-top: 1.2vw;
+    display: grid;
+    grid-template-columns: repeat(3, 17vw);
+    grid-template-rows: repeat(3, 11vw);
+    gap: 3vw;
+}
+.statsboxes {
+    border: 0.5vw solid black;
+    display: grid;
+    grid-template-rows: 17% 83%;
+    border-radius: 1vh;
+    padding-top: 1.1vw;
+}
+.howmuch-1 {
+    padding-left: 2vw;
+}
+.howmuch {
+    padding-left: 2vw;
+    padding-top: 0.3vw;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.statsboxes ul {
+    list-style: decimal;
+}
+.howmuchtho>ul {
+    list-style: none;
+}
+.howmuch-1 h3 {
+    font-weight: 600;
+}
+.howmuch ul a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600vw;
+    font-size: 1vw;
+}
+.howmuch ul a:hover {
+    text-decoration: underline;
+}
+.howmuch-1 {
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+body {
+    background-color: rgb(214, 212, 212);
+}
+.overbg {
+    background-color: white;
+    width: 64vw;
+    height: 158vw;
+    border-radius: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1.5vw 0vw 1.5vw 0vw;
+}
+.statistics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
